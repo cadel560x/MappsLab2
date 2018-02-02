@@ -364,4 +364,30 @@ namespace ChessBoard
         #endregion
 
     }
-}
+
+    public sealed partial class Token
+    {
+        private Ellipse token;
+        private string Name;
+        private Brush color;
+
+        //abstract void move();
+    } // end class Token
+
+    public sealed partial class Mouse
+    {
+        private Ellipse token;
+        private string Name;
+        private Brush color;
+
+
+    } // end class Mouse
+
+    public sealed partial class Cat
+    {
+        private Ellipse token;
+        private string Name;
+        private Brush color;
+    } // end class Mouse
+
+} // end namespace
